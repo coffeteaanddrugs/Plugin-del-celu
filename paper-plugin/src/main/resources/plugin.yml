@@ -1,0 +1,10 @@
+name: Smartphone
+version: '${version}'
+main: com.smartphone.paper.SmartphonePlugin
+api-version: '1.21'
+description: Telefono para jugadores (mensajes, llamadas, contactos). Funciona junto al mod Smartphone.
+softdepend: [PlasmoVoice]
+commands:
+  phone:
+    description: Muestra tu numero de telefono
+    usage: /phone number
